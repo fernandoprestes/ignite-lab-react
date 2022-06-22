@@ -6,7 +6,6 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
-    'plugin:jsx-a11y/recommended',
     'plugin:prettier/recommended',
     'prettier',
   ],
@@ -17,7 +16,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', 'jsx-a11y', 'prettier'],
+  plugins: ['react', 'prettier'],
   rules: {
     'prettier/prettier': ['error', { endOfLine: 'auto' }],
     'no-unused-vars': 'warn',
