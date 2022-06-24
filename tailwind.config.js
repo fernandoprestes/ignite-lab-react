@@ -10,6 +10,9 @@ module.exports = {
       center: true,
     },
     extend: {
+      backgroundImage: {
+        blur: 'url(/src/assets/img/blur-background.png)',
+      },
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],
       },
